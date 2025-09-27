@@ -259,7 +259,7 @@ class _TransactionsScreenState extends State<TransactionsScreen>
             ),
             // Transactions for this date
             ...dayTransactions.map((transaction) => 
-              _buildTransactionItem(transaction)).toList(),
+              _buildTransactionItem(transaction)),
             const SizedBox(height: 16),
           ],
         );
